@@ -1,5 +1,5 @@
 {
-  "AFirmaEjemplo_v1.json": 
+  "DIEGO_v1.json": 
 
 							{
 							  "title": "FirmaEjemplo_v1",
@@ -38,7 +38,7 @@
 							        "method": "GET",
 							        "fileList": "${documentos}",
 							        "headers": {
-							          "Content-Disposition": "attachment"
+							          "Accept": "application/pdf"
 							        }
 							      }
 							    },
