@@ -10,6 +10,7 @@
 							    "nombreUsuario",
 							    "urlBase",
 							    "urlDocumento",
+							    "urlDestinoDocumento",
 							    "cl"
 							  ],
 							  "data": {
@@ -44,13 +45,16 @@
 							    },
 							    "fileDestination": {
 							      "remote": {
-							        "URI": "${urlBase}/api/recibo/firmado",
+							        "URI": "${urlDestinoDocumento}",
 							        "method": "POST",
 							        "fileField": "archivo",
 							        "formFields": {
 							          "tramite": "$numeroTramite",
 							          "firmado": true,
 							          "idArchivo": "{$FILE_ID}"
+							        },
+							        "headers": {
+							          "Authorization": "Basic cm9vdEBwanNmOjFBcXFxcXFx"
 							        }
 							      }
 							    },
