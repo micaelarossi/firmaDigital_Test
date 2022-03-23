@@ -1,5 +1,5 @@
 {
-  "Version_v1.json": 
+  "Version_v2.json": 
 
 							{
 							  "title": "FirmaEjemplo_v1",
@@ -62,6 +62,9 @@
 							      "title": "Firmado de documentos simple",
 							      "username": "$nombreUsuario"
 							    },
+								"sharedHeaders": {
+									"Authorization": "Basic cm9vdEBwanNmOjFBcXFxcXFx"
+								},
 							    "template": {
 							      "id": "webtestplantilla_01",
 							      "expiration": "1234567890",
