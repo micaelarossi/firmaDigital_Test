@@ -1,6 +1,6 @@
 {
   "FIRMA_LOCAL_v1.json": {
-    "title": "Gestor_Local_v5",
+    "title": "FIRMA_LOCAL_v1",
     "templateVersion": "test",
     "argumentList": [
       "documentos",
@@ -42,7 +42,6 @@
           },
       "fileDestination": {
         "local": {
-          "location": "\\C:\\",
           "name": "ACT_1_firmado"
         }
       },
