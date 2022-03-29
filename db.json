@@ -1,5 +1,5 @@
 {
-  "Gestor_v1.json": 
+  "Gestor_v2.json": 
 
 							{
 							  "title": "FirmaEjemplo_v1",
@@ -34,28 +34,14 @@
 							      }
 							    },
 							    "fileOrigins": {
-							      "remote": {
-							        "URI": "${urlDocumento}",
-							        "method": "GET",
-							        "fileList": "${documentos}",
-							        "headers": {
-							          "Accept": "application/pdf"
-							        }
+							      "local": {
+							        "multiple": "false",
+							        "location": "C:\u01\actuaciones\ACT_1_TEST.pdf"
 							      }
 							    },
 							    "fileDestination": {
-							      "remote": {
-							        "URI": "${urlDestinoDocumento}",
-							        "method": "POST",
-							        "fileField": "archivo",
-							        "formFields": {
-							          "tramite": "$numeroTramite",
-							          "firmado": true,
-							          "idArchivo": "{$FILE_ID}"
-							        },
-							        "headers": {
-							          "Authorization": "Basic cm9vdEBwanNmOjFBcXFxcXFx"
-							        }
+							      "local": {
+							        "name": "ACT_1_TEST_FIRMADA"
 							      }
 							    },
 							    "interfaz": {
