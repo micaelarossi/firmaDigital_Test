@@ -1,6 +1,6 @@
 {
-  "XXX_v1.json": {
-    "title": "XXX_v1",
+  "XXX_v2.json": {
+    "title": "XXX_v2",
     "templateVersion": "test",
     "argumentList": [
       "documentos",
@@ -30,10 +30,15 @@
           "nombre_or": "Croppi Guillermo"
         }
       },
+     "fileOrigins": {
+            "local": {
+              "location": "//C://u01//actuaciones//ACT_1_TEST.pdf"
+            }
+          },
       "fileDestination": {
         "local": {
-          "location": "//C:/u01",
-          "name": "fileDestination.pdf"
+          "location": "//C://u01",
+          "name":"fileDestination.pdf"
         }
       },
       "interfaz": {
