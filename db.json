@@ -31,25 +31,14 @@
         }
       },
       "fileOrigins": {
-        "remote": {
-          "URI": "${urlDocumento}",
-          "method": "GET",
-          "fileList": "${documentos}",
-          "headers": {
-            "Content-Disposition": "attachment"
-          }
+        "local": {
+          "multiple": "false",
+          "location": "C:\u01\actuaciones\ACT_1_test.pdf"
         }
       },
       "fileDestination": {
-        "remote": {
-          "URI": "${urlBase}/api/recibo/firmado",
-          "method": "POST",
-          "fileField": "archivo",
-          "formFields": {
-            "tramite": "$numeroTramite",
-            "firmado": true,
-            "idArchivo": "{$FILE_ID}"
-          }
+        "local": {
+          "name": "ACT_1_firmado"
         }
       },
       "interfaz": {
