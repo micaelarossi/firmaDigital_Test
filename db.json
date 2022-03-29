@@ -1,6 +1,6 @@
 {
-  "FIRMA_LOCAL_v1.json": {
-    "title": "FIRMA_LOCAL_v1",
+  "AGESTOR_v1.json": {
+    "title": "AGESTOR_v1",
     "templateVersion": "test",
     "argumentList": [
       "documentos",
@@ -42,7 +42,7 @@
           },
       "fileDestination": {
         "local": {
-          "name": "ACT_1_firmado"
+          "name": "ACT_1_firmado.pdf"
         }
       },
       "interfaz": {
