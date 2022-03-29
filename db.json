@@ -1,6 +1,6 @@
 {
-  "Gestor_Local_v4.json": {
-    "title": "Gestor_Local_v4",
+  "Gestor_Local_v5.json": {
+    "title": "Gestor_Local_v5",
     "templateVersion": "test",
     "argumentList": [
       "documentos",
@@ -30,15 +30,19 @@
           "nombre_or": "Croppi Guillermo"
         }
       },
-      "fileOrigins": {
-        "local": {
-          "multiple": "false",
-          "location": "C:\\u01\\actuaciones\\ACT_1_test.pdf"
-        }
-      },
+     "fileOrigins": {
+            "remote": {
+              "URI": "${urlDocumento}",
+              "method": "GET",
+              "fileList": "${documentos}",
+              "headers": {
+                "Accept": "application/pdf"
+              }
+            }
+          },
       "fileDestination": {
         "local": {
-          "location": "C:\\u01\\actuaciones",
+          "location": "\\C:\\",
           "name": "ACT_1_firmado"
         }
       },
