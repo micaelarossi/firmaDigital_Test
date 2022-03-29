@@ -1,6 +1,6 @@
 {
-  "AGESTOR_v2.json": {
-    "title": "AGESTOR_v2",
+  "AGESTOR_v3.json": {
+    "title": "AGESTOR_v3",
     "templateVersion": "test",
     "argumentList": [
       "documentos",
@@ -31,18 +31,13 @@
         }
       },
      "fileOrigins": {
-            "remote": {
-              "URI": "${urlDocumento}",
-              "method": "GET",
-              "fileList": "${documentos}",
-              "headers": {
-                "Accept": "application/pdf"
-              }
+            "local": {
+              "location": "//C:/u01/actuaciones/ACT_1_TEST.pdf"
             }
           },
       "fileDestination": {
         "local": {
-          "location": "C:\\u01",
+          "location": "//C:/u01",
           "name":"fileDestination.pdf"
         }
       },
