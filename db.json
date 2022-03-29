@@ -1,6 +1,6 @@
 {
-  "AGESTOR_v3.json": {
-    "title": "AGESTOR_v3",
+  "AGESTOR_v4.json": {
+    "title": "AGESTOR_v4",
     "templateVersion": "test",
     "argumentList": [
       "documentos",
@@ -30,11 +30,6 @@
           "nombre_or": "Croppi Guillermo"
         }
       },
-     "fileOrigins": {
-            "local": {
-              "location": "//C:/u01/actuaciones/ACT_1_TEST.pdf"
-            }
-          },
       "fileDestination": {
         "local": {
           "location": "//C:/u01",
