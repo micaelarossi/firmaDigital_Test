@@ -1,5 +1,5 @@
 {
-  "AXXX_v2.json": {
+  "BXXX_v2.json": {
     "title": "AXXX_v2",
     "templateVersion": "test",
     "argumentList": [
@@ -31,16 +31,27 @@
         }
       },
      "fileOrigins": {
-            "local": {
-              "location": "//C://u01//actuaciones//ACT_1_TEST.pdf"
-            }
-          },
+                    "remote": {
+                      "URI": "${urlDocumento}",
+                      "method": "GET",
+                      "fileList": "${documentos}",
+                      "headers": {
+                        "Accept": "application/pdf"
+                      }
+                    }
+                  },
       "fileDestination": {
-        "local": {
-          "location": "//C://u01",
-          "name":"fileDestination.pdf"
-        }
-      },
+                    "remote": {
+                      "URI": "${urlBase}/api/recibo/firmado",
+                      "method": "POST",
+                      "fileField": "archivo",
+                      "formFields": {
+                        "tramite": "$numeroTramite",
+                        "firmado": true,
+                        "idArchivo": "{$FILE_ID}"
+                      }
+                    }
+                  },
       "interfaz": {
         "title": "Firmado de documentos simple",
         "username": "$nombreUsuario"
