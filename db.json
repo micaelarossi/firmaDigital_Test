@@ -1,6 +1,6 @@
 {
-  "V1_TEST.json": {
-    "title": "V1_TEST",
+  "V2_TEST.json": {
+    "title": "V2_TEST",
     "templateVersion": "test",
     "argumentList": [
       "documentos",
@@ -8,6 +8,7 @@
       "nombreUsuario",
       "urlBase",
       "urlDocumento",
+      "token",
       "cl"
     ],
     "data": {
@@ -56,6 +57,9 @@
         "title": "Firmado de documentos simple",
         "username": "$nombreUsuario"
       },
+    "sharedHeaders": {
+      "Authorization": "Bearer ${token}"
+    },
       "template": {
         "id": "webtestplantilla_01",
         "expiration": "1234567890",
