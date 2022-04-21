@@ -37,7 +37,8 @@
                       "method": "GET",
                       "fileList": "${documentos}",
                       "headers": {
-                        "Accept": "application/pdf"
+                        "Accept": "application/pdf",
+                        "Authorization": "Basic ZmRAaW5kcmFmaXJtYToxQXFxcXFxcQ=="
                       }
                     }
                   },
